@@ -4,7 +4,5 @@
 
 ### ⚡ Flutter Framework
 
-<span>https://github.com/suarezdsz/flutter-pokedex/blob/main/assets/flutter_doctor.png </span><span>)</span>
-
-
+<span>![</span><span>Aquí la descripción de la imagen por si no carga</span><span>]</span><span>(</span><span>https://github.com/suarezdsz/flutter-pokedex/blob/main/assets/flutter_doctor.png</span><span>)</span>
 
