@@ -5,4 +5,16 @@
 ### ⚡ Flutter Framework
 
 
-![nombreDeLaFoto](/assets/flutter_doctor.png)
+![flutterdoctor](/assets/flutter_doctor.png)
+
+
+### 🔣 Instalacion
+
+    clonar el repositorio en su local.
+    # git clone: https://github.com/suarezdsz/flutter-pokedex.git
+
+    aplicar el comando en la terminal sobre el directorio del repositorio clonado
+    # flutter pub get
+
+**con esto deberia de concluir la instalacion del proyecto.
+Espero este a la altura de sus espectativas, muchas gracias. 👋 **
