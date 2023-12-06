@@ -30,7 +30,9 @@ class ButtonIconRoundComponent extends StatelessWidget {
               height: height,
               width: width,
               decoration: BoxDecoration(color: bgColor, shape: BoxShape.circle),
-              child: const DropdownButtonComponent()),
+              child: const Center(
+                child: DropdownButtonComponent(),
+              )),
         ));
   }
 }

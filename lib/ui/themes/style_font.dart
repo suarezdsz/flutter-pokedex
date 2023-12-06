@@ -17,7 +17,7 @@ class TextFontStyle {
       letterSpacing: 1);
 
   static const subTitle1W500WhiteStyle = TextStyle(
-      fontSize: 18.0,
+      fontSize: 27.0,
       fontWeight: FontWeight.w700,
       color: ColorStyle.primaryColorWhite,
       letterSpacing: 1);

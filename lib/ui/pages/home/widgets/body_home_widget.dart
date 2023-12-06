@@ -71,7 +71,7 @@ class BodyHomeWidgetState extends State<BodyHomeWidget> {
                           index: index,
                           title: itemChange.items[index].name,
                           ur: itemChange.items[index].url.substring(18),
-                          height: size.height * 0.1,
+                          height: size.height * 0.11,
                           width: size.width * 0.25,
                         );
                       }));

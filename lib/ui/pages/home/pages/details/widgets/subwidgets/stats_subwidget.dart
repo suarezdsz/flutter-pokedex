@@ -80,10 +80,13 @@ class ItemStats extends StatelessWidget {
             flex: 6,
             child: Center(
                 child: LinearProgressBar(
+              minHeight: 10,
+
               maxSteps: 100,
               progressType:
                   LinearProgressBar.progressTypeLinear, // Use Linear progress
               currentStep: int.parse(value),
+
               progressColor: color,
               backgroundColor: Colors.grey,
             )))

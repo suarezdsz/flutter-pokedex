@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
 import 'dart:math';
+
 //component
 import 'package:pokedex/core/services/state_api/pokemon_state/pokemon_state_api.dart';
 import 'package:pokedex/ui/components/images/imag_network_component.dart';
@@ -10,6 +11,9 @@ import '../label/label_title_component.dart';
 //page
 import 'package:pokedex/ui/pages/home/pages/details/details_page.dart';
 import 'package:pokedex/data/response/detail_pokemon_response.dart';
+
+//route
+import 'package:pokedex/ui/routes/custom_page_router.dart';
 
 //themes
 import 'package:pokedex/ui/themes/style_color.dart';
@@ -61,19 +65,18 @@ class _CardItemListComponentState extends State<CardItemListComponent> {
 
                         Color indexColor = ColorStyle().palletColor[index];
 
-                        Navigator.of(context).push(MaterialPageRoute(
-                            builder: (context) => DetailsPage(
-                                  color: indexColor,
-                                  types: snapshot.data!.types,
-                                  stats: snapshot.data!.stats,
-                                  abilities: snapshot.data!.abilities,
-                                  url: snapshot
-                                      .data!.sprites.other.home.frontDefault,
-                                  code: snapshot.data!.id.toString(),
-                                  name: snapshot.data!.name,
-                                  kg: snapshot.data!.weight.toString(),
-                                  cm: snapshot.data!.height.toString(),
-                                )));
+                        Navigator.of(context).push(CustomPageRouter(
+                            child: DetailsPage(
+                          color: indexColor,
+                          types: snapshot.data!.types,
+                          stats: snapshot.data!.stats,
+                          abilities: snapshot.data!.abilities,
+                          url: snapshot.data!.sprites.other.home.frontDefault,
+                          code: snapshot.data!.id.toString(),
+                          name: snapshot.data!.name,
+                          kg: snapshot.data!.weight.toString(),
+                          cm: snapshot.data!.height.toString(),
+                        )));
                       },
                       child: Stack(
                         children: [
@@ -111,8 +114,8 @@ class _CardItemListComponentState extends State<CardItemListComponent> {
                               ImageNetworkComponent(
                                 url: snapshot.data!.sprites.frontDefault,
                                 margin: 0,
-                                height: size.height * 0.12,
-                                width: size.height * 0.12,
+                                height: size.height * 0.1,
+                                width: size.height * 0.1,
                               ),
                               LabelTitleComponent(
                                 title: widget.title,
