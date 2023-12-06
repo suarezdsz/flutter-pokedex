@@ -4,5 +4,7 @@
 
 ### ⚡ Flutter Framework
 
+<span>![</span><span>Flutter Doctor de mi local</span><span>(</span><span>https://github.com/suarezdsz/flutter-pokedex/blob/main/assets/flutter_doctor.png </span><span>)</span>
+
 
 
