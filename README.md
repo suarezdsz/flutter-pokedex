@@ -1,6 +1,6 @@
 ## Hola 👋 🚀
 
-**El proceo de instalacion de este proyecto es sencilla, usualmente uso un archivo .env para las variabales de entorno o el luacher.json de visual studio code, en este caso no por lo pequeño del proyecto.**
+**El proceso de instalación de este proyecto es sencilla, usualmente uso un archivo .env para las variables de entorno o el launch.json de Visual Studio Code, en este caso no por lo pequeño del proyecto.**
 
 ### ⚡ Flutter Framework
 
@@ -16,5 +16,5 @@
     aplicar el comando en la terminal sobre el directorio del repositorio clonado
     # flutter pub get
 
-**con esto deberia de concluir la instalacion del proyecto.
-Espero este a la altura de sus espectativas, muchas gracias. 👋 **
+**con esto debería de concluir la instalación del proyecto.
+Espero este a la altura de sus expectativas, muchas gracias. 👋**
